@@ -1,0 +1,18 @@
+mutation registerUser($input: RegisterUserInput!) {
+  registerUser(Input: $input) {
+    orderId
+    amount
+    name
+    email
+    phone
+    address
+  }
+}
+
+mutation verifyUser($input: String!) {
+  verifyUser(Input: $input)
+}
+
+mutation capturePayment($input: CapturePaymentInput!) {
+  capturePayment(Input: $input)
+}

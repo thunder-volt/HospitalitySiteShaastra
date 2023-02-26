@@ -1,0 +1,113 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.body-otp {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90.4deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%);
+}
+
+:where(.container-otp, .form-otp, .input-field-otp, .header-otp) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-otp {
+    background: #fff;
+    padding: 30px 65px;
+    border-radius: 12px;
+    row-gap: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.container-otp .header-otp {
+    height: 65px;
+    width: 65px;
+    background: linear-gradient(109.6deg, rgb(80, 35, 217) 11.2%, rgb(217, 35, 189) 91.1%);
+    color: #fff;
+    font-size: 2.5rem;
+    border-radius: 50%;
+}
+
+.container-otp h4 {
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.form-otp .input-field-otp {
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.input-field-otp input {
+    height: 45px;
+    width: 42px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1.125rem;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.input-field-otp input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.input-field-otp input::-webkit-inner-spin-button,
+.input-field-otp input::-webkit-outer-spin-button {
+    display: none;
+}
+
+.form-otp button {
+    margin-top: 25px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    padding: 9px 0;
+    cursor: pointer;
+    border-radius: 6px;
+    pointer-events: none;
+    background: linear-gradient(109.6deg, rgb(80, 35, 217) 11.2%, rgb(217, 35, 189) 91.1%);
+    transition: all 0.2s ease;
+}
+
+.form-otp button.active {
+    background: linear-gradient(109.6deg, rgb(80, 35, 217) 11.2%, rgb(217, 35, 189) 91.1%);
+    pointer-events: auto;
+}
+
+.form-otp button:hover {
+    background: linear-gradient(109.6deg, rgb(147, 112, 252) 11.2%, rgb(238, 118, 220) 91.1%);
+}
+
+.resend {
+    text-decoration: none;
+    font-weight: 50;
+    margin-top: 10px;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.resend:hover {
+    transform: scale(1.05);
+    color: #ddd;
+}

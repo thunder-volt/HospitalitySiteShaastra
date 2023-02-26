@@ -1,0 +1,115 @@
+.body-login {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90.4deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%);
+}
+
+.cont-login {
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.login-email {
+    border: none;
+    outline: none;
+    width: 301px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    /* width: calc(100% / 3 - 15px); */
+    flex-direction: column;
+    margin: 4px 0;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+
+.login-password {
+    border: none;
+    outline: none;
+    width: 301px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    /* width: calc(100% / 3 - 15px); */
+    flex-direction: column;
+    margin: 4px 0;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background: linear-gradient(109.6deg, rgb(80, 35, 217) 11.2%, rgb(217, 35, 189) 91.1%);
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.fa-regular,
+.far {
+    font-weight: 400;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resend {
+    text-decoration: none;
+    font-weight: 50;
+    margin-top: 5px;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.resend:hover {
+    transform: scale(1.05);
+    color: #ddd;
+}
+

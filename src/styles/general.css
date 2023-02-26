@@ -1,0 +1,59 @@
+.gen-body {
+    background: linear-gradient(90.4deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%);
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 63px;
+}
+
+.steps ol {
+    padding: 30px;
+}
+
+.steps ol li {
+    margin: 10px;
+}
+
+.instructions ol {
+    padding: 30px;
+}
+
+.instructions ol li {
+    margin: 10px;
+}
+
+.acc-info {
+    margin-top: 16px;
+    line-height: 37px;
+    padding-left: 14px;
+}
+
+.policy {
+    margin-top: 50px;
+    /* line-height: 37px; */
+}
+
+.policy-info {
+    margin-top: 10px;
+    line-height: 35px;
+    padding-left: 14px;
+}
+
+.gen-body h1 {
+    margin-bottom: 50px;
+}
+
+.contact {
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    line-height: 35px;
+}
+
+h3 {
+    color: rgb(225, 225, 225);
+}
